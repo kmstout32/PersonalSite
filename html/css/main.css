@@ -1,0 +1,56 @@
+body{
+	background-color: black;
+	display: flex;
+	flex-flow: row nowrap;
+}
+p,h1{
+
+	font-family: monospace;
+	color: white;
+}
+
+#home {
+	text-align: center;
+
+}
+#home{
+  border-radius: 10px;
+}
+
+.main {
+ 	margin-right: 120px;
+ 	margin-top: 20px;
+ 	
+ }
+.img{
+ 	border-radius:80px;
+  height: 50%;
+ }
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+
+}
+
+li a {
+  display: block;
+  color: #6b7572;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.nav-item{
+	border: solid ;
+	border-color: #6b7572;
+	border-radius: 8px;
+	
+	text-align: center;
+}
